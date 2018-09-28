@@ -15,6 +15,9 @@
 # Bootanimation
 TARGET_BOOTANIMATION_SIZE := 720p
 
+# use brcmfmac wifi driver
+WIFI_DRIVER_BUILT := brcmfmac
+
 # Inherit device parts
 $(call inherit-product, device/sony/kugo/aosp_f5321.mk)
 
